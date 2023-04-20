@@ -1,0 +1,39 @@
+body:not(.responsive) #site-root {
+    min-width: unset;
+}
+body #masterPage {
+    min-width: unset;
+}
+body #SITE_CONTAINER {
+    overflow: hidden; /*FME*/
+}
+body #SITE_HEADER {
+    min-width: unset;
+}
+body #comp-k35wqedo {
+    min-width: unset;
+    width: 100%;
+    margin-top: 0;
+}
+#comp-k35wqedo3,
+#comp-kpwb079y,
+#comp-k35wqedo4 {
+    display: none;
+}
+#comp-k35wqedo1 #comp-k35wqedo2 {
+    height: 60px;
+    margin: 2px;
+}
+#img_comp-k35wqedo2 {
+    width: 120px;
+}
+#comp-k35wqedo5 > div:nth-child(2) > div {
+    min-height: unset;
+}
+#comp-k57yzzvw,
+#comp-k3y9ko9g {
+    display: none;
+}
+body #comp-lgozbhha {
+    display: block;
+}
