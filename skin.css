@@ -35,5 +35,57 @@ body #comp-k35wqedo {
     display: none;
 }
 body #comp-lgozbhha {
-    display: block;
+    /*display: block;*//*FME*/
+}
+#comp-k35wqedo11,
+#comp-k35wr5vd {
+    display: none;
+}
+body #PAGES_CONTAINER,
+body #SITE_PAGES {
+    min-width: unset;
+}
+body #g26rr {
+    min-width: unset;
+}
+#Containerg26rr > div > div > *:not(:nth-child(7)) {
+    display: none;/*FME*/
+}
+body #comp-kwmw8dpj {
+    min-width: unset;
+}
+body #comp-k2zvx5ex {
+    min-width: unset;
+}
+body #comp-k2zvx5ey1 {
+    width: 100%;
+    margin: 12px 0;
+    position: static;
+}
+body #comp-k2zvx5ey2 {
+    width: unset;
+    min-width: unset;
+    margin: 0 0 20px 0;
+    position: static;
+}
+body #comp-k2zzj2r2 {
+    min-width: unset;
+}
+#comp-k2zzj2r21 > div[data-mesh-id] > div > section {
+    min-width: unset;
+    width: 100%;
+}
+body #comp-k2zzj2r22 {
+    margin: 18px 0 12px;
+}
+body #comp-k2zw2c5o {
+    min-width: unset;
+}
+#comp-k2zw2c5o1 > div[data-mesh-id] > div {
+    min-height: unset;
+}
+#comp-k2zw2c5o1 > div[data-mesh-id] #comp-k2zw2c5o2 {
+    margin: 18px 0 12px;
+    position: static;
+    width: 100%;
 }
