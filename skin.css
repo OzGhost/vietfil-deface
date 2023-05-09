@@ -4,9 +4,6 @@ body:not(.responsive) #site-root {
 body #masterPage {
     min-width: unset;
 }
-body #SITE_CONTAINER {
-    overflow: hidden; /*FME*/
-}
 body #SITE_HEADER {
     min-width: unset;
 }
@@ -48,7 +45,16 @@ body #SITE_PAGES {
 body #g26rr {
     min-width: unset;
 }
-#Containerg26rr > div > div > *:not(:nth-child(7)) {
+#Containerg26rr > div > div {
+    display: block;
+}
+#Containerg26rr > div > div > *:nth-child(1) {
+    display: none;/*FME*/
+}
+#Containerg26rr > div > div > *:nth-child(5) {
+    display: none;/*FME*/
+}
+#Containerg26rr > div > div > *:nth-child(9) {
     display: none;/*FME*/
 }
 body #comp-kwmw8dpj {
@@ -80,6 +86,7 @@ body #comp-k2zzj2r22 {
 }
 body #comp-k2zw2c5o {
     min-width: unset;
+    margin-bottom: 0;
 }
 #comp-k2zw2c5o1 > div[data-mesh-id] > div {
     min-height: unset;
@@ -88,4 +95,35 @@ body #comp-k2zw2c5o {
     margin: 18px 0 12px;
     position: static;
     width: 100%;
+}
+#BACKGROUND_GROUP {
+    display: none;
+}
+#SITE_HEADER > div:nth-child(2) > div:first-child {
+    display: none;
+}
+body #comp-k2zwi8z4 {
+    min-width: unset;
+    margin-top: unset;
+}
+body #comp-k38kpzvz {
+    min-width: unset;
+}
+body #SITE_FOOTER {
+    min-width: unset;
+}
+body #comp-k458v8ic {
+    position: absolute;
+    left: unset;
+    right: 0;
+    top: 0;
+}
+body #comp-k2z4skts,
+body #comp-kznjsvcw {
+    margin: 0;
+    left: 0;
+    width: auto;
+}
+body #comp-k2z4u4y5 {
+    min-width: unset;
 }
