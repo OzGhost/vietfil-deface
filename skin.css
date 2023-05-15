@@ -31,9 +31,6 @@ body #comp-k35wqedo {
 #comp-k3y9ko9g {
     display: none;
 }
-body #comp-lgozbhha {
-    /*display: block;*//*FME*/
-}
 #comp-k35wqedo11,
 #comp-k35wr5vd {
     display: none;
@@ -126,4 +123,27 @@ body #comp-kznjsvcw {
 }
 body #comp-k2z4u4y5 {
     min-width: unset;
+}
+body #comp-k2yixppu2 {
+    width: 100%;
+    margin-left: 0;
+    position: static;
+}
+body #comp-kwcxahsd {
+    margin: 0;
+    left: 0;
+    width: 100%;
+}
+body #comp-lgozbhha {
+    /*display: block;*/
+    margin: 0;
+}
+body #comp-lgozhmdf {
+    display: none; /*FME:menu*/
+}
+body #comp-lhovqebn {
+    display: none; /*FME:login btn*/
+}
+body #comp-lhovxgoy {
+    display: none; /*FME:language btn*/
 }
