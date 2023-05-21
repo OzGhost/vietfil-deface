@@ -153,9 +153,8 @@ body #comp-lgozbhha {
     top: 56px;
     right: 0;
     z-index: 10;
-    width: 320px;
-    height: 800px;
-    box-shadow: 0 0 8px red; /*FME*/
+    width: unset;
+    box-shadow: 0 0 8px cyan; /*FME*/
 }
 body #comp-lhvmen3w,
 body #comp-lhvmcvjb {
@@ -222,17 +221,28 @@ body #comp-lhvmcvjb:hover .stButton2__root .StylableButton2545352419__label {
 body #comp-lgozhmdf {
     display: block;
     width: unset;
+    height: unset;
+}
+body #comp-lgozhmdfnavContainer {
+    position: static;
 }
 body #comp-lgozhmdf ul {
     height: unset;
+    position: static;
 }
 body #comp-lgozhmdf ul li {
     display: block;
     background: #FAF7F8;
-    width: 100% !important;
     height: 50px !important;
     position: static !important;
     visibility: unset !important;
+    width: 160px !important;
+}
+body #comp-lgozhmdf ul li p {
+    line-height: unset !important;
+}
+body #comp-lgozhmdf ul li#comp-lgozhmdf__more__ {
+    display: none;
 }
 
 body #comp-lhovqebn {
