@@ -43,14 +43,32 @@
         btn.style.width = "40px";
         btn.style['box-shadow'] = "0 0 6px lightgrey";
         btn.style['text-align'] = "center";
+        btn.tid = "style";
+        var btn2nd = document.createElement("button");
+        btn2nd.type = "submit"
+        btn2nd.innerText = "Break!";
+        btn2nd.style.position = "absolute";
+        btn2nd.style.bottom = "60px";
+        btn2nd.style.right = "20px";
+        btn2nd.style['line-height'] = "40px";
+        btn2nd.style.width = "40px";
+        btn2nd.style['box-shadow'] = "0 0 6px lightgrey";
+        btn2nd.style['text-align'] = "center";
+        btn2nd.tid = "func";
         var dok = document.createElement("form");
         dok.appendChild(inp);
         dok.appendChild(btn);
+        dok.appendChild(btn2nd);
         fr.appendChild(dok);
         dok.addEventListener("submit", function(e) {
             e.preventDefault();
+            var t = e.submitter.tid;
             var s = inp.value;
-            loadStyle(s);
+            console.log(s);
+            if (t == "style")
+                loadStyle(s);
+            else
+                loadFunc(s);
             inp.value = "";
             fr.style.display = "none";
         });
@@ -61,5 +79,10 @@
     function loadStyle(s) {
         ig.innerHTML = s;
     };
+    function loadFunc(s) {
+        var t = document.createElement("script");
+        t.innerText = s;
+        document.body.appendChild(t);
+    }
     document.addEventListener("keydown", reload);
 })();

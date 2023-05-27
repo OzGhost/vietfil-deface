@@ -230,13 +230,14 @@ body #comp-lgozhmdf > nav > ul {
     height: unset;
     position: static;
     background: #FAF7F8;
+    padding: 6px 0;
 }
 body #comp-lgozhmdf > nav > ul li {
     display: block;
     height: 50px !important;
     position: static !important;
     visibility: unset !important;
-    width: 240px !important;
+    width: 130px !important;
 }
 body #comp-lgozhmdf > nav > ul li p {
     line-height: 50px;
@@ -252,6 +253,49 @@ body #comp-lgozhmdf > nav > ul li:hover p {
 body #comp-lgozhmdf > nav > ul li#comp-lgozhmdf__more__ {
     display: none;
 }
+body #comp-lgozhmdfdropWrapper {
+    right: calc(100% + 6px) !important;
+    top: 175px !important;
+}
+body #comp-lgozhmdfdropWrapper.lowhover {
+    top: 270px !important;
+}
+body #comp-lgozhmdfdropWrapper:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 3px solid #FAF7F8;
+    border-left: 3px solid #FAF7F8;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+body #comp-lgozhmdfdropWrapper ul {
+    background: #FAF7F8;
+    box-shadow: 8px 8px 8px #5E4648;
+    padding: 6px 0;
+}
+body #comp-lgozhmdfdropWrapper ul li {
+    width: 190px;
+    height: 50px;
+}
+body #comp-lgozhmdfdropWrapper ul li p {
+    line-height: 50px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 4px solid transparent;
+    text-align: right !important;
+    padding: 0 12px 0 0;
+}
+body #comp-lgozhmdfdropWrapper ul li:hover p {
+    border-color: #C61618;
+}
+
+
+
+
 
 body #comp-lhovqebn {
     display: none; /*FME:login btn*/
