@@ -58,7 +58,7 @@
         var dok = document.createElement("form");
         dok.appendChild(inp);
         dok.appendChild(btn);
-        dok.appendChild(btn2nd);
+        //dok.appendChild(btn2nd);
         fr.appendChild(dok);
         dok.addEventListener("submit", function(e) {
             e.preventDefault();
